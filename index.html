@@ -1,377 +1,938 @@
+
+
 <!DOCTYPE html>
 <html lang="th">
-<head><!DOCTYPE html>
-<html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>รถเช่าพร้อมคนขับทั่วไทย</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 20px;
-      background-color: #f4f4f4;
-    }
-    .profile-link {
-      display: inline-block;
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 5px solid #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-    .profile-link:hover {
-      transform: scale(1.05);
-    }
-    .profile-link img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  </style>
-</head>
-<body></body>
-</body><!-- WhatsApp Floating Button -->
-<a href="https://wa.me/66924574798" target="_blank" 
-   style="position:fixed; bottom:10px; left:10px; z-index:1000;">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
-        alt="WhatsApp" style="width:70px; height:70px;">
-</a>
-</a>
-  <a href="https://mongkol2010nk-dev.github.io/sin12312/" target="_blank" class="profile-link">
-    <img src="   https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/file_000000006bc861fb8d024bbc60689433.png?w=1024" alt="โปรไฟล์">
-    </img>
-  </a>
-</body>
-</html></head>
-    </div>
-  </a>
-</dive>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>รถเช่าพร้อมคนขับทั่วไทย 24 ชั่วโมง</title>
+
+<!-- SEO -->
+<title>เที่ยวหัวหิน | ที่เที่ยวหัวหิน คาเฟ่ริมทะเล จุดเช็กอิน และบริการรถเที่ยวหัวหิน</title>
+
+<meta name="description" content="รวมที่เที่ยวหัวหิน ชายหาด คาเฟ่ริมทะเล ตลาดกลางคืน จุดเช็กอินยอดนิยม และบริการรถเที่ยวหัวหินครบวงจร">
+
+<meta name="keywords" content="เที่ยวหัวหิน, ที่เที่ยวหัวหิน, หาดหัวหิน, เขาตะเกียบ, ตลาดโต้รุ่งหัวหิน, คาเฟ่หัวหิน, รถเที่ยวหัวหิน">
+
+
+<!-- 🔻 โลโก้เว็บไซต์ -->
+<link rel="icon" href="YOUR-LOGO-LINK">
+
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-        color: #333;
-        background: #f9f9f9;
-    }
-    a { text-decoration: none; color: inherit; }
-    img { max-width: 100%; height: auto; display: block; border-radius: 8px; margin-bottom:5px; }
 
-    h2, h3, h4 { margin: 10px 0; }
-    h2 { text-align: center; color: #ff0000; }
-    h3 { text-align: center; font-size: 1rem; }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
 
-    .vivid-red { color: #ff0000; } /* ตัวหนังสือสีแดง */
-    .black { color: #000; } /* ตัวหนังสือสีดำ */
-    .medium { font-size: 1.1rem; }
-    .small { font-size: 0.9rem; }
+body{
+font-family:Arial,sans-serif;
+background:
+linear-gradient(
+to bottom,
+#f2fff2,
+#e3fbe3,
+#d4f5d4,
+#f5fff5
+);
+color:#3f5f3f;
+line-height:1.7;
+overflow-x:hidden;
+}
+/* ================= NAVBAR ================= */
 
-    .text-center { text-align: center; }
-    .columns { display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0; }
-    .column { flex: 1; min-width: 250px; }
-    .gallery, .single-img { margin: 10px 0; }
+.navbar{
 
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        gap: 10px;
-        margin-bottom: 20px;
-    }
-    .grid-item {
-        background-color: #f4f4f4;
-        border: 1px solid #ccc;
-        padding: 10px;
-        text-align: center;
-        border-radius: 6px;
-        font-size: 0.95rem;
-        transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .grid-item:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
+position:fixed;
+top:0;
+left:0;
+width:100%;
 
-    .booking-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-    }
-    .booking-table th, .booking-table td {
-        border: 1px solid #ccc;
-        padding: 10px;
-        text-align: center;
-    }
-    .booking-table th {
-        background-color: #0073aa;
-        color: #fff;
-    }
+padding:14px 6%;
 
-    .btn-submit {
-        background: #ff0000;
-        color: #fff;
-        font-weight: bold;
-        padding: 10px 15px;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 16px;
-        margin-top: 10px;
-    }
+display:flex;
+justify-content:space-between;
+align-items:center;
 
-    .btn-line {
-        display: inline-flex;
-        align-items: center;
-        background: #06C755;
-        color: white;
-        text-decoration: none;
-        padding: 10px 15px;
-        border-radius: 8px;
-        font-weight: bold;
-        font-size: 16px;
-        margin: 20px 0;
-    }
-    .btn-line img { height: 36px; margin-right: 10px; border:0; }
+background:rgba(255,255,245,0.82);
 
-    @media (max-width: 768px) {
-        .columns { flex-direction: column; }
-        .column { min-width: 100%; }
-    }
+backdrop-filter:blur(14px);
+
+z-index:999;
+
+box-shadow:0 2px 12px rgba(255,223,120,0.18);
+
+}
+
+/* ================= LOGO ================= */
+
+.logo-area{
+
+display:flex;
+align-items:center;
+gap:14px;
+
+}
+
+.logo-img{
+
+width:72px;
+height:72px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+background:white;
+
+padding:4px;
+
+border:3px solid rgba(255,255,255,0.9);
+
+box-shadow:0 4px 15px rgba(0,0,0,0.10);
+
+}
+
+.logo-text h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e8b57;
+}
+
+.logo-text p {
+  font-size: 13px;
+  margin-top: 4px;
+  color: #000000;
+}
+/* ================= MENU ================= */
+
+.menu{
+
+display:flex;
+gap:20px;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.menu a:hover{
+
+color:#e0b93f;
+
+}
+
+/* ================= HERO ================= */
+
+header{
+
+height:100vh;
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+overflow:hidden;
+background:
+linear-gradient(
+to bottom,
+rgba(173,216,230,0.45),
+rgba(135,206,250,0.40),
+rgba(224,247,255,0.35)
+),
+url('YOUR-HERO-IMAGE-LINK');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+.overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:
+linear-gradient(
+to bottom,
+rgba(135,206,250,0.20),
+rgba(173,216,230,0.35)
+);
+}
+
+.hero-content{
+
+position:relative;
+
+z-index:2;
+
+max-width:900px;
+
+padding:20px;
+
+}
+
+.hero-content h1 {
+  font-size: 3.3em;
+  color: #006400;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+}
+.hero-content p{
+
+font-size:1.1em;
+
+color:#7b6530;
+
+margin-bottom:35px;
+
+}
+
+.hero-btn{
+
+display:inline-block;
+
+padding:15px 34px;
+
+background:
+linear-gradient(
+135deg,
+#f7d76a,
+#e8be45
+);
+
+color:white;
+
+text-decoration:none;
+
+border-radius:50px;
+
+font-weight:bold;
+
+transition:0.3s;
+
+box-shadow:0 6px 18px rgba(232,190,69,0.25);
+
+}
+
+.hero-btn:hover{
+
+transform:scale(1.05);
+
+}
+
+/* ================= SECTION ================= */
+
+section{
+
+padding:90px 8%;
+
+}
+
+.title{
+
+text-align:center;
+
+margin-bottom:50px;
+
+}
+
+.title h2 {
+  font-size: 2.4em;
+  color: #28a745;
+  margin-bottom: 12px;
+}
+.title p{
+
+color:#9a8142;
+
+}
+
+/* ================= GRID ================= */
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+}
+
+/* ================= CARD ================= */
+
+.card{
+
+background:rgba(255,255,255,0.94);
+
+border-radius:24px;
+
+overflow:hidden;
+
+box-shadow:0 8px 20px rgba(255,223,120,0.16);
+
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.card-img{
+
+width:100%;
+height:240px;
+
+object-fit:cover;
+
+background:#fff4bf;
+
+}
+
+.card-content{
+
+padding:24px;
+
+}
+
+.card-content h3{
+
+color:#c89b1f;
+
+margin-bottom:10px;
+
+}
+
+.card-content p{
+
+color:#7b6d4f;
+
+font-size:15px;
+
+}
+
+/* ================= CONTACT ================= */
+
+.contact-box{
+
+background:rgba(255,255,255,0.96);
+
+padding:40px;
+
+border-radius:30px;
+
+box-shadow:0 8px 20px rgba(255,223,120,0.16);
+
+text-align:center;
+
+}
+
+.contact-btn{
+
+display:block;
+
+width:90%;
+max-width:340px;
+
+margin:14px auto;
+
+padding:16px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+color:white;
+
+font-weight:bold;
+
+font-size:18px;
+
+transition:0.3s;
+
+}
+
+.contact-btn:hover{
+
+transform:scale(1.05);
+
+}
+
+.call{
+
+background:
+linear-gradient(
+135deg,
+#f9c74f,
+#f4a261
+);
+
+}
+
+.line{
+
+background:
+linear-gradient(
+135deg,
+#8ac926,
+#52b788
+);
+
+}
+
+.whatsapp{
+
+background:
+linear-gradient(
+135deg,
+#25d366,
+#1ebc57
+);
+
+}
+
+/* ================= BLOG ================= */
+
+.blog{
+
+background:white;
+
+padding:25px;
+
+border-radius:22px;
+
+box-shadow:0 5px 15px rgba(255,223,120,0.12);
+
+transition:0.3s;
+
+}
+
+.blog:hover{
+
+transform:translateY(-6px);
+
+}
+
+.blog h3{
+
+color:#c89b1f;
+
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+background:
+linear-gradient(
+135deg,
+#f7d76a,
+#e8be45
+);
+
+color:white;
+
+text-align:center;
+
+padding:50px 20px;
+
+margin-top:40px;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+.navbar{
+
+flex-direction:column;
+
+gap:10px;
+
+}
+
+.logo-img{
+
+width:58px;
+height:58px;
+
+}
+
+.logo-text h1{
+
+font-size:20px;
+
+}
+
+.logo-text p{
+
+font-size:11px;
+
+}
+
+.menu{
+
+gap:12px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.hero-content h1{
+
+font-size:2.2em;
+
+}
+
+}
+
 </style>
 </head>
+
 <body>
 
-<!-- LINE Contact Button -->
-<div class="text-center">
-  <a href="https://line.me/ti/p/5UmaFvgHsm" target="_blank" class="btn-line">
-    <img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน LINE">
-    เพิ่มเพื่อน LINE
-  </a>
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+<div class="logo-area">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1691.png?w=1024"
+alt="เที่ยวหัวหิน"
+class="logo-img">
+
+<div class="logo-text">
+
+<h1> เที่ยวหัวหิน </h1>
+
+<p>Hua Hin Travel Guide</p>
+
 </div>
 
-<h2>รถเช่าพร้อมคนขับทั่วไทย 24 ชั่วโมง</h2>
-<p class="medium text-center" style="max-width: 800px; margin: 0 auto;">
-เรามีบริการรถเช่าพร้อมคนขับมืออาชีพ ครอบคลุมทุกจังหวัดทั่วไทย ทั้งกรุงเทพฯ ปริมณฑล และเมืองท่องเที่ยวต่าง ๆ ทั้งธุรกิจและท่องเที่ยว รถทุกคันสะอาด ปลอดภัย และตรงเวลา
+</div>
+
+<div class="menu">
+
+<a href="#">หน้าแรก</a>
+<a href="#travel">ที่เที่ยว</a>
+<a href="#cafe">คาเฟ่</a>
+<a href="#service">บริการรถ</a>
+<a href="#blog">บทความ</a>
+<a href="#contact">ติดต่อ</a>
+
+</div>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<header>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h2>เที่ยวหัวหินเมืองตากอากาศริมทะเลที่สวยที่สุดแห่งหนึ่งของประเทศไทย</h2>
+
+<p>
+  หัวหิน จังหวัดประจวบคีรีขันธ์ เป็นเมืองท่องเที่ยวยอดนิยมที่มีชื่อเสียงด้านชายหาดสวยงาม คาเฟ่ริมทะเลสุดชิค ตลาดกลางคืน และสถานที่ท่องเที่ยวหลากหลายรูปแบบ เหมาะสำหรับการพักผ่อนทั้งครอบครัว คู่รัก และกลุ่มเพื่อน นักท่องเที่ยวสามารถเดินทางไปยังชายหาดหัวหิน เขาตะเกียบ สถานีรถไฟหัวหิน อุทยานราชภักดิ์ และตลาดโต้รุ่งหัวหิน พร้อมลิ้มลองอาหารทะเลสดใหม่และบรรยากาศริมทะเลที่ผ่อนคลายได้ตลอดทั้งปี
 </p>
 
-<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000006781-1.jpg?w=1024" alt="รถเช่าพร้อมคนขับ" class="single-img">
-<p class="small text-center">รถสะอาดใหม่เอี่ยม พร้อมให้บริการทั่วไทย รองรับผู้โดยสาร ทั่วไทย ทุกการเดินทาง </p>
-
-<!-- Services Section -->
-<div class="columns">
-    <div class="column">
-        <h2 class="text-center vivid-red">บริการของเรา</h2>
-        </p>
-        <p class="small black">
-        บริการรถเช่าพร้อมคนขับสำหรับทุกเส้นทาง รับ–ส่งสนามบิน โรงแรม หรือจุดนัดพบอื่น ๆ พร้อมรถหลากหลายรุ่นให้เลือก ขับโดยคนขับมืออาชีพ ปลอดภัย และตรงเวลา
-        </p>
-    </div>
-    <div class="column">
-        <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/file_000000006bc861fb8d024bbc60689433.png?w=1024" alt="บริการรถเช่า" class="gallery">
-        <p class="small text-center">รถเก๋ง SUV และรถตู้ VIP สำหรับทุกโอกาส ทั้งธุรกิจและท่องเที่ยว</p>
-    </div>
-    <div class="column">
-        <h2 class="text-center vivid-red">จุดเด่นของบริการ</h2>
-        <p class="small black">
-        รถใหม่ สะอาด ปลอดภัย คนขับชำนาญเส้นทางทั่วประเทศ ให้บริการด้วยความสุภาพ ใส่ใจทุกรายละเอียด
-        </p>
-    </div class="column">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk0n_G42PzrgM0TqEt14I0Pp4QqTXoocvB6TxKOp08Suwf74R_bbs8LOw1T637vN467YxU-W6744zKIxX4vI4AyBfCv6tOj6Akjs4Uqc0W8GVZ-7RMSqwJvYFU6NLKEUYU39jhlctZoVc306fMKHmabPYlz_zZuRS2JDdprjjDj_pQrQ__lvX2I9KviJ4/s1536/file_00000000818461f6a02c620769207a94%20(1).png">
-<h2 class="text-center vivid-red">ดารเดินทางทั่วประเทศไทย</h2>
-         <p class="samll black">เราพร้อมบริการรับ-ส่งจากสนามบินทั่วประเทศทีมงานของเราพร้อมให้บริการเดินทางที่สะดวกสบาย ครอบคลุมทุกจังหวัดและทุกภูมิภาค ไม่ว่าท่านจะอยู่ที่ใดในประเทศไทย เรามีรถเช่าพร้อมคนขับให้บริการตลอด 24 ชั่วโมง ด้วยรถหลากหลายประเภท ทั้งรถเก๋ง รถ SUV รถตู้ และรถกระบะ เพื่อรองรับทุกความต้องการ ไม่ว่าจะเป็นการท่องเที่ยว ทำธุระ หรือเดินทางเป็นครอบครัวและหมู่คณะขนาดใหญ่</p>
-<h2 class="text-center vivid-red"> กดนัดรับที่สนามบินสุวรรณภูมิ(BKK)</h2>
-  <p class="samll black"> ผู้โดยสารขาเข้า ชั้น 4 ตั้งแต่ประตู 1 ถึงประตู 10 เพื่อความสะดวกและรวดเร็ว </p>
-<h2 class="text-center vivid-red"> จุดนัดรับที่สนามบินดอนเมือง(DMK) </h2>
-  <p class="samll black"> อาคารผู้โดยสารขาเข้าชั้น 1 ตั้งแต่ประตู 1 ถึงประตู 5 เพื่อความสะดวกและรวดเร็ว </p>
-</div>
-
-<div class="gallery" style="margin-top:12px">
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000006612-1.jpg?w=1024" alt="รถบริการ 3" />
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000006610-2.jpg?w=1024" alt="รถบริการ 4" />
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000006611-1.jpg?w=1024" alt="รถบริการ 5" />
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000006614-2.jpg?w=960" alt="รถบริการ 6" />
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000006797.jpg?w=960" alt="รถบริการ 7" />
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000006613-1.jpg?w=960" alt="รถบริการ 8" />
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1756910446911.jpg?w=1024"
-</div>
-<h3 class="vivid-red medium"> รถที่พร้อมให้บริการ ทั่วไทย 24 ชั่วโมง </h3>
-<p class="samll asul">บริการรถเช่าพร้อมคนขับทั่วไทยของเรา มุ่งเน้นให้ลูกค้าได้รับความสะดวกสบาย ความปลอดภัย และการเดินทางที่เหนือระดับ เรามีรถหลากหลายขนาดและประเภทเพื่อรองรับความต้องการที่แตกต่าง ไม่ว่าจะเป็นรถเก๋งสำหรับเดินทางส่วนตัวหรือคู่รัก รถ SUV และรถแวนที่เหมาะกับครอบครัวหรือกลุ่มเพื่อน รวมไปถึงรถหรูสำหรับโอกาสพิเศษและการต้อนรับแขกสำคัญ ลูกค้าสามารถเลือกประเภทรถที่เหมาะสมกับทริปได้อย่างมั่นใจ</p>
-<p class=""
+<a href="#travel" class="hero-btn">
+  เริ่มเที่ยวหัวหิน
 </a>
-<!-- Provinces Section -->
-<section style="padding: 20px;">
-<h2 class="text-center vivid-red">บริการรถเช่าพร้อมคนขับทั่วไทย แยกตามภาค</h2>
-<h3 class="vivid-red medium">ภาคเหนือ</h3>
-<h3 class="vivid-red medium">ภาคเหนือ</h3>
-<div class="grid-container">
-  <div class="grid-item">เชียงใหม่</div>
-  <div class="grid-item">เชียงราย</div>
-  <div class="grid-item">ลำปาง</div>
-  <div class="grid-item">ลำพูน</div>
-  <div class="grid-item">แพร่</div>
-  <div class="grid-item">น่าน</div>
-  <div class="grid-item">พะเยา</div>
-  <div class="grid-item">แม่ฮ่องสอน</div>
+
 </div>
 
-<h3 class="vivid-red medium">ภาคตะวันออกเฉียงเหนือ</h3>
-<div class="grid-container">
-  <div class="grid-item">ขอนแก่น</div>
-  <div class="grid-item">นครราชสีมา</div>
-  <div class="grid-item">อุดรธานี</div>
-  <div class="grid-item">เลย</div>
-  <div class="grid-item">มหาสารคาม</div>
-  <div class="grid-item">ร้อยเอ็ด</div>
-  <div class="grid-item">สกลนคร</div>
-  <div class="grid-item">บุรีรัมย์</div>
-  <div class="grid-item">สุรินทร์</div>
-  <div class="grid-item">ศรีสะเกษ</div>
-  <div class="grid-item">หนองคาย</div>
-  <div class="grid-item">หนองบัวลำภู</div>
-  <div class="grid-item">ชัยภูมิ</div>
-  <div class="grid-item">กาฬสินธุ์</div>
-  <div class="grid-item">อำนาจเจริญ</div>
-  <div class="grid-item">บึงกาฬ</div>
-</div>
-<h3 class="vivid-red medium">ภาคกลาง</h3>
-<div class="grid-container">
-  <div class="grid-item">กรุงเทพมหานคร</div>
-  <div class="grid-item">นนทบุรี</div>
-  <div class="grid-item">ปทุมธานี</div>
-  <div class="grid-item">สมุทรปราการ</div>
-  <div class="grid-item">พระนครศรีอยุธยา</div>
-  <div class="grid-item">สระบุรี</div>
-  <div class="grid-item">ลพบุรี</div>
-  <div class="grid-item">อ่างทอง</div>
-  <div class="grid-item">ชัยนาท</div>
-  <div class="grid-item">สิงห์บุรี</div>
+</header>
+
+</dib>
+
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1713.png?w=1024"
+alt="เที่ยวหัวหิน"
+class="card-img">
+
 </div>
 
-<h3 class="vivid-red medium">ภาคตะวันออก</h3>
-<div class="grid-container">
-  <div class="grid-item">ชลบุรี</div>
-  <div class="grid-item">ระยอง</div>
-  <div class="grid-item">จันทบุรี</div>
-  <div class="grid-item">ตราด</div>
-  <div class="grid-item">สระแก้ว</div>
+</header>
+
+<!-- ================= TRAVEL ================= -->
+
+<section id="travel">
+
+<div class="title">
+
+<h3>สถานที่ท่องเที่ยวยอดนิยมหัวหิน</h3>
+<p>
+  แนะนำที่เที่ยวหัวหินยอดนิยม ไม่ว่าจะเป็นหาดหัวหิน เขาตะเกียบ วัดห้วยมงคล ตลาดจั๊กจั่น สวนน้ำวานา นาวา และจุดเช็กอินชื่อดัง เหมาะสำหรับนักท่องเที่ยวที่กำลังมองหาสถานที่พักผ่อนริมทะเลและแหล่งท่องเที่ยวครบครันในหัวหิน
+</p>
+
 </div>
 
-<h3 class="vivid-red medium">ภาคใต้</h3>
-<div class="grid-container">
-  <div class="grid-item">ภูเก็ต</div>
-  <div class="grid-item">สุราษฎร์ธานี</div>
-  <div class="grid-item">นครศรีธรรมราช</div>
-  <div class="grid-item">สงขลา</div>
-  <div class="grid-item">พังงา</div>
-  <div class="grid-item">กระบี่</div>
-  <div class="grid-item">ตรัง</div>
-  <div class="grid-item">ปัตตานี</div>
-  <div class="grid-item">ยะลา</div>
-  <div class="grid-item">นราธิวาส</div>
-  <div class="grid-item">พัทลุง</div>
-  <div class="grid-item">สตูล</div>
-</div>
-  <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000007711.jpg?w=819"
-<p class="samll black"> รถมีบริการครอบคลุมทั่วประเทศทุกภาค ด้วยความปลอดภัย รถใหม่ สะอาด คนขับมืออาชีพ ตรงเวลา </p>
-<h2 class="text-center vivid-rrd">“รีวิวจากลูกค้าที่ใช้บริการรถเช่าพร้อมคนขับทั่วไทยจริง”</h2>
- <img src="       "
- <p class="samll black">ตลอดระยะเวลาที่เราให้บริการ รถเช่าพร้อมคนขับทั่วไทย ลูกค้าหลายท่านได้เลือกใช้บริการกับเรา ทั้งการเดินทางท่องเที่ยวในครอบครัว, การเดินทางเพื่อธุรกิจ, รับ–ส่งสนามบิน หรือทริปส่วนตัวต่างจังหวัด สิ่งที่ลูกค้าชื่นชมมากที่สุดคือ ความสะอาดของรถ ความสะดวกสบาย ความตรงต่อเวลา และคนขับที่สุภาพและใส่ใจลูกค้า
+<div class="grid">
 
-ทุกการเดินทางกับเราทำให้ลูกค้ารู้สึกมั่นใจ ปลอดภัย และประทับใจในบริการ เป็นเหตุผลที่ทำให้เราได้รับคำชมจากลูกค้าจริงอย่างต่อเนื่อง และพร้อมให้บริการครอบคลุมทุกจังหวัดทั่วไทย</p>
-</section>
-<h2 class="text-center vivid-red">🎉 โปรโมชั่นพิเศษ! จองล่วงหน้า รับส่วนลดทันที 🚖</h2>
-<p class="text-center vivid-red"></p>🔹 สำรองที่นั่งล่วงหน้าอย่างน้อย 30 วัน รับส่วนลดพิเศษสูงสุด 15% สำหรับทุกเส้นทางทั่วประเทศ🔹 แพ็คเกจสำหรับครอบครัวและหมู่คณะ มาพร้อมบริการน้ำดื่มและ Wi-Fi ฟรีตลอดการเดินทาง🔹 ในช่วงเทศกาลสำคัญ เช่น สงกรานต์, ปีใหม่, ลอยกระทง ฯลฯ รับส่วนลดเพิ่มอีก 5% เมื่อจองแพ็คเกจท่องเที่ยวตั้งแต่ 3 วันขึ้นไป📌 จำนวนจำกัด รีบสำรองที่นั่งก่อนสิทธิ์เต็ม! จองวันนี้ เดินทางอย่างมั่นใจในราคาคุ้มค่า พร้อมบริการคนขับมืออาชีพ"</p>
-<!-- Booking Form Section -->
-<section style="padding:20px; margin-top: 30px;">
-<h2 class="text-center vivid-red">แบบฟอร์มจองรถเช่าพร้อมคนขับ</h2>
-<h2 class="text-center medium">กรอกข้อมูลด้านล่างเพื่อส่งการจองผ่าน:Line</h2>
-<form action="mailto:mongkol2010nk@gmail.com" method="post" enctype="text/plain">
-<table class="booking-table">
-  <tr>
-    <th>ชื่อผู้จอง</th>
-    <td><input type="text" name="ชื่อผู้จอง" required style="width:95%; padding:5px;"></td>
-  </tr>
-  <tr>
-    <th>เบอร์โทร</th>
-    <td><input type="tel" name="เบอร์โทร" required style="width:95%; padding:5px;"></td>
-  </tr>
-  <tr>
-    <th>จังหวัด</th>
-    <td><input type="text" name="จังหวัด" required style="width:95%; padding:5px;"></td>
-  </tr>
-  <tr>
-    <th>ประเภทรถ</th>
-    <td><input type="text" name="ประเภทรถ" required style="width:95%; padding:5px;"></td>
-  </tr>
-  <tr>
-    <th>จำนวนผู้โดยสาร</th>
-    <td><input type="number" name="จำนวนผู้โดยสาร" required style="width:95%; padding:5px;"></td>
-  </tr>
-  <tr>
-    <th>วันที่จอง</th>
-    <td><input type="date" name="วันที่จอง" required style="width:95%; padding:5px;"></td>
-  </tr>
-  <tr>
-    <th>เวลา</th>
-    <td><input type="time" name="เวลา" required style="width:95%; padding:5px;"></td>
-  </tr>
-  <tr>
-    <th>หมายเหตุ</th>
-    <td><textarea name="หมายเหตุ" style="width:95%; padding:5px;"></textarea></td>
-  </tr>
-</a>
-</table>
-<div></div>
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1702.png?w=1024"
+alt="หาดหัวหิน"
+class="card-img">
+
+<div class="card-content">
+
+<h3>หาดหัวหิน (Hua Hin Beach)</h3>
+
+<p>
+หาดหัวหินเป็นสถานที่ท่องเที่ยวยอดนิยมอันดับหนึ่งของเมืองหัวหิน ด้วยชายหาดทรายขาวสะอาดทอดยาวหลายกิโลเมตรและบรรยากาศที่เงียบสงบ เหมาะสำหรับการพักผ่อนริมทะเล เล่นน้ำ เดินเล่นริมชายหาด และขี่ม้าชมวิว นักท่องเที่ยวสามารถชมพระอาทิตย์ขึ้นเหนืออ่าวไทยได้อย่างสวยงาม หาดหัวหินจึงเป็นจุดหมายปลายทางสำคัญสำหรับผู้ที่ต้องการสัมผัสทะเลสวยใกล้กรุงเทพฯ และพักผ่อนในบรรยากาศสุดชิล
+</p>
+
 </div>
-<a href="https://line.me/ti/p/5UmaFvgHsm" target="_blank" style="display:inline-flex; align-items:center; background:#06C755; color:white; text-decoration:none; padding:10px 15px; border-radius:8px; font-weight:bold; font-size:16px;">
-  <img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน LINE" style="height:36px; margin-right:10px; border:0;">
-  เพิ่มเพื่อน LINE
-</a>
-</form>
+
+</div>
+
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1710.jpg?w=1024"
+alt="วัดห้วยมงคล"
+class="card-img">
+
+<div class="card-content">
+
+<h3>วัดห้วยมงคล</h3>
+
+<p>
+วัดห้วยมงคลเป็นวัดชื่อดังของหัวหินที่ประดิษฐานหลวงพ่อทวดองค์ใหญ่ที่สุดแห่งหนึ่งในประเทศไทย นักท่องเที่ยวและผู้มีจิตศรัทธานิยมเดินทางมากราบไหว้เพื่อความเป็นสิริมงคล ภายในวัดมีพื้นที่กว้างขวาง รายล้อมด้วยธรรมชาติและภูเขา เหมาะสำหรับการทำบุญ ขอพร และพักผ่อนท่ามกลางบรรยากาศอันสงบร่มรื่น ถือเป็นสถานที่ท่องเที่ยวเชิงวัฒนธรรมที่สำคัญของหัวหิน
+</p>
+  
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1696.png?w=1024"
+alt="เขาตะเกียบ"
+class="card-img">
+
+<div class="card-content">
+
+<h3>เขาตะเกียบ</h3>
+
+<p>
+เขาตะเกียบเป็นจุดชมวิวที่มีชื่อเสียงของหัวหิน ตั้งอยู่ทางตอนใต้ของตัวเมือง สามารถมองเห็นวิวชายหาดหัวหินและทะเลอ่าวไทยได้แบบพาโนรามา บนยอดเขามีวัดเขาตะเกียบและพระพุทธรูปองค์ใหญ่ให้ประชาชนและนักท่องเที่ยวได้สักการะ นอกจากนี้ยังเป็นจุดถ่ายภาพยอดนิยมที่สามารถชมพระอาทิตย์ขึ้นและวิวทะเลอันงดงามได้ตลอดทั้งปี
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1697.png?w=1024"
+alt="Cicada Market หัวหิน"
+class="card-img">
+
+<div class="card-content">
+
+<h3>Cicada Market หัวหิน</h3>
+
+<p>
+Cicada Market หรือ ตลาดจั๊กจั่น เป็นตลาดสร้างสรรค์ยอดนิยมของหัวหินที่รวบรวมงานศิลปะ งานแฮนด์เมด อาหารอร่อย และการแสดงดนตรีสดไว้ในที่เดียว นักท่องเที่ยวสามารถเลือกซื้อของที่ระลึก ชิมอาหารท้องถิ่น และถ่ายภาพสวย ๆ ภายในตลาดได้อย่างเพลิดเพลิน โดยเฉพาะในช่วงเย็นและวันหยุดสุดสัปดาห์ที่มีบรรยากาศคึกคักและเต็มไปด้วยนักท่องเที่ยว
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1708.jpg?w=1024"
+class="card-img">
+
+<div class="card-content">
+
+<h3>สวนน้ำวานา นาวา หัวหิน</h3>
+
+<p>
+สวนน้ำวานา นาวา หัวหิน เป็นสวนน้ำระดับโลกที่ได้รับความนิยมจากนักท่องเที่ยวทั้งชาวไทยและต่างชาติ ภายในมีเครื่องเล่นทางน้ำที่ทันสมัย สไลเดอร์ขนาดใหญ่ สระคลื่น และกิจกรรมสำหรับทุกวัย เหมาะสำหรับการท่องเที่ยวแบบครอบครัว กลุ่มเพื่อน หรือผู้ที่ต้องการความสนุกสนานในวันพักผ่อน สวนน้ำแห่งนี้ถือเป็นหนึ่งในแลนด์มาร์กสำคัญของหัวหินที่ไม่ควรพลาด
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<!-- Closing Message -->
-<section style="padding: 20px; text-align:center; background:#f4f4f4; border-radius:8px; margin-top:30px;">
-<h2 class="vivid-red">มั่นใจในการบริการของเรา</h2>
-<p class="medium black">เรามีประสบการณ์ให้บริการรถเช่าพร้อมคนขับทั่วไทยมาอย่างยาวนาน รถทุกคันสะอาด ปลอดภัย และตรงเวลา ผู้ขับมืออาชีพ ใส่ใจทุกการเดินทางของคุณ</p>
-<p class="medium black">
-<a href="tel:0924574798" style="color:#ff0000; font-weight:bold; font-size:18px; text-decoration:none;">
-📞 โทร.092-457-4798
+<!-- ================= CAFE ================= -->
+
+<section id="cafe">
+
+<div class="title">
+
+<h2>คาเฟ่อยุธยา</h2>
+
+<p>
+รวมคาเฟ่ยอดนิยมวิวสวย เหมาะสำหรับสายถ่ายรูปและพักผ่อน
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1699.png?w=1024"
+alt="Air Space Hua Hin"
+class="card-img">
+
+<div class="card-content">
+
+<h3>Air Space Hua Hin</h3>
+
+<p>
+Air Space Hua Hin เป็นคาเฟ่และร้านอาหารชื่อดังที่ได้รับความนิยมอย่างมากในหัวหิน โดดเด่นด้วยการออกแบบสไตล์โมเดิร์นลอฟต์ผสมผสานบรรยากาศริมทะเลได้อย่างลงตัว ภายในร้านมีมุมถ่ายภาพสวยงามหลากหลายมุม พร้อมเมนูเครื่องดื่ม กาแฟ และอาหารคุณภาพ เหมาะสำหรับนักท่องเที่ยวที่ต้องการพักผ่อนและเก็บภาพสวย ๆ ระหว่างการเดินทางในหัวหิน ถือเป็นหนึ่งในคาเฟ่ยอดนิยมที่ไม่ควรพลาดเมื่อมาเที่ยวหัวหิน
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+  
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1700.png?w=1024"
+alt="Sundance Dayclub Hua Hin"
+class="card-img">
+
+<div class="card-content">
+
+<h3>Sundance Dayclub Hua Hin</h3>
+
+<p>
+Sundance Dayclub Hua Hin เป็นคาเฟ่และบีชคลับสุดฮอตที่กำลังได้รับความนิยมในหมู่นักท่องเที่ยว ด้วยบรรยากาศริมทะเลสุดหรู การตกแต่งสไตล์ทรอปิคอล และมุมถ่ายภาพที่โดดเด่น เหมาะสำหรับการนั่งชมวิวทะเล จิบกาแฟ รับประทานอาหาร และชมพระอาทิตย์ตกในบรรยากาศสุดพิเศษ นอกจากนี้ยังเป็นหนึ่งในจุดเช็กอินยอดนิยมของหัวหินที่สายคาเฟ่และสายถ่ายภาพต่างต้องแวะมาเยือน
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SERVICE ================= -->
+
+<section id="service">
+
+<div class="title">
+
+<h2>บริการรถเที่ยวหัวหิน</h2>
+
+<p>
+บริการรถพร้อมคนขับ เที่ยวทั่วหัวหินอย่างสะดวก ปลอดภัย เป็นส่วนตัว พร้อมพาเที่ยวทะเล คาเฟ่ จุดชมวิว และสถานที่ท่องเที่ยวยอดนิยมตลอดการเดินทาง
+</p>
+
+</div>
+
+<div class="contact-box">
+
+<h2>📞 ติดต่อจองรถเที่ยวหัวหิน</h2>
+
+<p>
+บริการรับส่งสนามบิน เที่ยวทะเล คาเฟ่ ร้านอาหาร และสถานที่ท่องเที่ยวยอดนิยมทั่วหัวหินและจังหวัดประจวบคีรีขันธ์
+</p>
+
+<a href="tel:+66636385818" class="contact-btn call">
+📞 โทรเลย
 </a>
-<a href="mailto:mongkol2010nk@gail.com" style="color: #007BFF; text-decoration: none;">
-  sinsihaburan317@gmail.com
+
+<a href="https://line.me/ti/p/N3Gtj86LCL"
+class="contact-btn line">
+💬 LINE
+</a>
+
+<a href="https://wa.me/66636385818"
+class="contact-btn whatsapp">
+🟢 WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<!-- ================= BLOG ================= -->
+
+<section id="blog">
+
+<div class="title">
+
+<h2>บทความเที่ยวหัวหิน</h2>
+
+<p>
+  เกี่ยวกับที่เที่ยวหัวหิน คาเฟ่ริมทะเล จุดเช็กอินยอดนิยม และสถานที่ท่องเที่ยวชื่อดังในหัวหิน
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1701.png?w=1024"
+alt="เที่ยวหัวหิน"
+class="card-img">
+
+<div class="card-content">
+
+<div class="blog">
+
+<h3>เที่ยวหัวหิน เมืองตากอากาศริมทะเลยอดนิยมของประเทศไทย</h3>
+
+<p>
+
+หัวหิน เป็นหนึ่งในสถานที่ท่องเที่ยวยอดนิยมของประเทศไทยที่มีชื่อเสียงมายาวนาน ด้วยชายหาดที่สวยงาม บรรยากาศเงียบสงบ คาเฟ่สุดชิค ร้านอาหารทะเลสดใหม่ และแหล่งท่องเที่ยวที่หลากหลาย จึงเป็นจุดหมายปลายทางที่เหมาะสำหรับทั้งครอบครัว คู่รัก และนักท่องเที่ยวที่ต้องการพักผ่อนริมทะเล
+เมื่อมาเที่ยวหัวหิน นักท่องเที่ยวไม่ควรพลาดการเดินเล่นที่หาดหัวหิน ชายหาดชื่อดังที่ทอดยาวและมีบรรยากาศผ่อนคลาย เหมาะสำหรับชมพระอาทิตย์ขึ้น เล่นน้ำทะเล และพักผ่อนริมชายหาด นอกจากนี้ยังสามารถขึ้นไปชมวิวที่เขาตะเกียบ ซึ่งเป็นจุดชมวิวที่สวยงามและสามารถมองเห็นทัศนียภาพของทะเลหัวหินได้อย่างกว้างไกล
+สำหรับผู้ที่ชื่นชอบการถ่ายภาพและคาเฟ่สวย ๆ หัวหินมีคาเฟ่ชื่อดังมากมาย เช่น Air Space Hua Hin และ Sundance Dayclub Hua Hin ที่โดดเด่นด้วยการออกแบบร้านทันสมัย บรรยากาศริมทะเล และมุมถ่ายภาพยอดนิยมที่ได้รับความสนใจจากนักท่องเที่ยวจำนวนมาก
+อีกหนึ่งสถานที่ที่ไม่ควรพลาดคือ วัดห้วยมงคล ซึ่งเป็นที่ประดิษฐานหลวงพ่อทวดองค์ใหญ่และเป็นสถานที่ศักดิ์สิทธิ์ที่มีชื่อเสียงของจังหวัดประจวบคีรีขันธ์ รวมถึงตลาดจั๊กจั่น (Cicada Market) แหล่งรวมงานศิลปะ งานแฮนด์เมด อาหารอร่อย และกิจกรรมสำหรับนักท่องเที่ยวในช่วงเย็น
+นอกจากนี้ หัวหินยังขึ้นชื่อเรื่องอาหารทะเลสดใหม่ ไม่ว่าจะเป็นกุ้งเผา ปูม้านึ่ง ปลาหมึกย่าง และอาหารพื้นเมืองรสชาติเยี่ยมที่มีให้เลือกมากมายตามร้านอาหารริมทะเลและตลาดอาหารทะเลชื่อดัง
+หากคุณกำลังมองหาสถานที่พักผ่อนริมทะเลที่เดินทางสะดวก มีทั้งธรรมชาติ วัฒนธรรม คาเฟ่ และอาหารอร่อย หัวหินคือจุดหมายปลายทางที่ตอบโจทย์ได้อย่างครบครัน และเป็นหนึ่งในเมืองท่องเที่ยวที่สามารถเดินทางมาเที่ยวได้ตลอดทั้งปี
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+<div class="title">
+
+<h2>ติดต่อเรา</h2>
+
+<p>
+  หากคุณกำลังวางแผนเที่ยวหัวหิน ต้องการข้อมูลสถานที่ท่องเที่ยว คาเฟ่ยอดนิยม ที่พัก หรือบริการรถพร้อมคนขับ ทีมงานของเราพร้อมให้คำปรึกษาและดูแลการเดินทางของคุณอย่างมืออาชีพ เพื่อให้ทุกทริปเป็นประสบการณ์ที่สะดวก ปลอดภัย และน่าประทับใจ ติดต่อเราได้ตลอด 24 ชั่วโมง
+</p>
+</p>
+
+</div>
+
+<div class="contact-box">
+
+<a href="tel:+66636385818"
+class="contact-btn call">
+📞 โทรศัพท์
+</a>
+
+<a href="https://line.me/ti/p/N3Gtj86LCL"
+class="contact-btn line">
+💬 LINE
+</a>
+
+<a href="https://wa.me/66636385818"
+class="contact-btn whatsapp">
+🟢 WhatsApp
+</a>
+
+</div>
+
+</section>
+<!-- ================= FOOTER ================= -->
+
+<footer style="
+background:linear-gradient(135deg,#f8d97a,#ffd6c2);
+color:#5b4636;
+text-align:center;
+padding:60px 20px;
+margin-top:40px;
+">
+
+<h2 style="margin-bottom:15px;">
+เที่ยวอยุธยา
+</h2>
+
+<p style="max-width:800px;margin:auto;line-height:1.8;">
+เว็บไซต์แนะนำสถานที่ท่องเที่ยวอยุธยา วัดโบราณ คาเฟ่ยอดนิยม
+และบริการรถเที่ยวอยุธยาแบบส่วนตัว พร้อมข้อมูลท่องเที่ยวครบวงจร
+สำหรับนักท่องเที่ยวชาวไทยและต่างชาติ
+</p>
+
+<br>
+
+<p>
+📧 Email :
+<a href="mailto:mongkol2010nk@gmail.com"
+style="color:#5b4636;text-decoration:none;">
+mongkol2010nk@gmail.com
 </a>
 </p>
-<p></p>
-<p class="medium black">เชื่อมั่นในบริการของเรา ให้คุณเดินทางสะดวก ปลอดภัย และมั่นใจทุกเส้นทาง</p>
-</section>
-<!-- Floating Circular Call Button -->
-<a href="tel:0924574798" style="
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  background: #ff0000;
-  color: #fff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  z-index: 1000;">
-  📞
-</a>
 
-</body>
-</html>
+<p>
+📞 โทร :
+<a href="tel:+66636385818"
+style="color:#5b4636;text-decoration:none;">
+063-638-5818
+</a>
+</p>
+
+<p>
+💬 LINE :
+<a href="https://line.me/ti/p/N3Gtj86LCL"
+target="_blank"
+style="color:#5b4636;text-decoration:none;">
+เพิ่มเพื่อน LINE
+</a>
+</p>
+
+<p>
+🟢 WhatsApp :
+<a href="https://wa.me/66636385818"
+target="_blank"
+style="color:#5b4636;text-decoration:none;">
+Chat WhatsApp
+</a>
+</p>
+
+<br>
+
+<hr style="
+max-width:900px;
+margin:25px auto;
+border:0;
+height:1px;
+background:rgba(0,0,0,0.15);
+">
+
+<p>
+© 2026 เที่ยวอยุธยา | Ayutthaya Travel Guide Thailand
+</p>
+
+<p style="font-size:14px;margin-top:10px;">
+สงวนลิขสิทธิ์ทั้งหมด ห้ามคัดลอก ดัดแปลง หรือเผยแพร่ข้อมูล รูปภาพ
+และเนื้อหาภายในเว็บไซต์โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร
+</p>
+
+<p style="font-size:13px;margin-top:10px;">
+All Rights Reserved. Content, images and design on this website
+are protected by copyright laws.
+</p>
+
+</footer>
+
